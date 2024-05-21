@@ -15,7 +15,7 @@ This project provides a Python script that periodically checks for the top trend
 - Python 3.x
 - `requests` library
 - `beautifulsoup4` library
-- `win10toast` library
+- `winotify` library
 - `nircmd` utility for hidden execution
 
 ## Installation
