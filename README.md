@@ -26,9 +26,8 @@ This project provides a Python script that periodically checks for the top trend
    
 2.**Install Dependencies**:
 
-bash
-Copy code
-pip install requests beautifulsoup4 win10toast
+pip install requests beautifulsoup4 winotify
+
 3.**Download nircmd.exe**:
 
 Download nircmd.exe from NirSoft's website.
