@@ -8,7 +8,7 @@ This project provides a Python script that periodically checks for the top trend
 - **Detailed Notifications**: Each notification includes the model name and author for the top 3 trending models.
 - **Background Execution**: The script runs in the background without opening a command prompt window, thanks to a helper utility.
 - **Robust Logging**: Logs are maintained for each run, capturing details about the script's execution and any errors that occur.
-- **Cross-Platform Libraries**: Utilizes `requests` for HTTP requests, `BeautifulSoup` for HTML parsing, and `win10toast` for Windows notifications.
+- **Cross-Platform Libraries**: Utilizes `requests` for HTTP requests, `BeautifulSoup` for HTML parsing, and `winotify` for Windows notifications.
 
 ## Requirements
 
@@ -36,12 +36,12 @@ Save nircmd.exe to a location you can easily access (e.g., C:\path\to\nircmd).
 4.**Create the Batch File**:
 
 Open Notepad or any text editor.
-Enter the following commands, replacing the paths with your actual paths:
-bat
-Copy code
+Paste in the following texts while replacing the paths with your actual paths:
+
 @echo off
 cd /d "C:\path\to\your\script\directory"
 C:\path\to\nircmd\nircmd.exe exec hide "C:\Program Files\Python312\python.exe" "C:\path\to\your\script\directory\hf_trending_models_notifier.py"
+
 Save the file as run_notifier_hidden.bat.
 
 5.**Set Up Task Scheduler**:
