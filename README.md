@@ -23,7 +23,7 @@ This project provides a Python script that periodically checks for the top trend
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/WhitJP519/hugging_face_trend_notifier.git
-   cd hf_trending_models_notifier
+   
 2.**Install Dependencies**:
 
 bash
